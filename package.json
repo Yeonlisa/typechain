@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/Yeonlisa/typechain",
   "author": "Yeonlisa",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
