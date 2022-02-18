@@ -1,0 +1,9 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learining Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/Yeonlisa/typechain",
+  "author": "Yeonlisa",
+  "license": "ISC"
+}
