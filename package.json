@@ -5,9 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/Yeonlisa/typechain",
   "author": "Yeonlisa",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.17"
   }
 }
